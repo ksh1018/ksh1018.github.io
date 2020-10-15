@@ -1,0 +1,40 @@
+title: ksh1018
+lang: kr 
+description: 김승훈
+
+ 
+remote_theme: rundocs/jekyll-rtd-theme 
+
+ 
+# debug: 
+#   compress: false 
+#   dist: false 
+#   extension: true 
+
+ 
+readme_index: 
+  with_frontmatter: true 
+
+ 
+sass: 
+  style: compress 
+
+ 
+plugins: 
+  - jemoji 
+  - jekyll-avatar 
+  - jekyll-mentions 
+
+ 
+exclude: 
+  - Makefile 
+  - CNAME 
+  - Gemfile 
+  - Gemfile.lock 
+  - LICENSE 
+  - requirements.txt 
+  - node_modules 
+  - package.json 
+  - package-lock.json 
+  - webpack.config.js 
+  - jekyll-rtd-theme.gemspec 
