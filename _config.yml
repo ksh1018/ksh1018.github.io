@@ -1,44 +1,34 @@
 title: ksh1018
-lang: kr 
+lang: kr
 description: 김승훈
 
- 
-remote_theme: rundocs/jekyll-rtd-theme 
+remote_theme: rundocs/jekyll-rtd-theme
 
- 
-# debug: 
-#   compress: false 
-#   dist: false 
-#   extension: true 
+# debug:
+#   compress: false
+#   dist: false
+#   extension: true
 
- 
-readme_index: 
-  with_frontmatter: true 
+readme_index:
+  with_frontmatter: true
 
- 
-sass: 
-  style: compress 
+sass:
+  style: compress
 
- 
-plugins: 
-  - jemoji 
-  - jekyll-avatar 
-  - jekyll-mentions 
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
 
- 
-exclude: 
-  - Makefile 
-  - CNAME 
-  - Gemfile 
-  - Gemfile.lock 
-  - LICENSE 
-  - requirements.txt 
-  - node_modules 
-  - package.json 
-  - package-lock.json 
-  - webpack.config.js 
-  - jekyll-rtd-theme.gemspec 
-
-
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://ksh1018.github.io/" # the base hostname & protocol for your site
+exclude:
+  - Makefile
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - jekyll-rtd-theme.gemspec
